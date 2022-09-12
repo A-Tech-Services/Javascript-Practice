@@ -38,14 +38,50 @@
 
 
 
-let girlfriend = "ibukunayo";
+// let girlfriend = "ibukunayo";
 
-let guest = prompt("What is your name?")
+// let guest = prompt("What is your name?")
 
-if (guest == girlfriend){
-    alert("Welcome Atech Girlfriend!");
-} else if (guest == "motorola"){
-    alert(`Welcome motorola we were epecting ${girlfriend} we would have addressed you as Girlfriend`);
+// if (guest == girlfriend){
+    
+// } else if (guest == "motorola"){
+//     alert(`Welcome motorola we were epecting ${girlfriend} we would have addressed you as Girlfriend`);
+// }else{
+//     alert("Sorry we dont know you!!!");
+// }
+
+// let result = (guest == "ibukunayo") ? alert("Welcome Atech Girlfriend!") : alert("Sorry we dont know you!!!");
+
+
+// Asking javascript name
+
+let javascriptName = prompt("What's the 'official' name of JavaScript?");
+
+if(javascriptName == "ECMAScript"){
+    alert("Right");
 }else{
-    alert("Sorry we dont know you!!!");
+    alert("You don't know? 'ECMAScript'!");
+}
+
+
+let question = prompt("Who is there ?");
+
+function ADMIN(){
+    let adminpassword = "TheMaster"
+    let inputpass = prompt("Password? ")
+    if (inputpass == adminpassword){
+        alert("Welcome");
+    }else if(inputpass == "other"){
+        alert("Wrong password");
+    }else{
+        alert("Canceled!");
+    }
+}
+
+if(question == "Admin"){
+    ADMIN();
+}else if(question == "Other"){
+    alert("I don't know you");
+}else{
+    alert("Canceled!")
 }
