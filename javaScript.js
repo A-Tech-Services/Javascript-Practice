@@ -55,33 +55,64 @@
 
 // Asking javascript name
 
-let javascriptName = prompt("What's the 'official' name of JavaScript?");
+// let javascriptName = prompt("What's the 'official' name of JavaScript?");
 
-if(javascriptName == "ECMAScript"){
-    alert("Right");
-}else{
-    alert("You don't know? 'ECMAScript'!");
+// if(javascriptName == "ECMAScript"){
+//     alert("Right");
+// }else{
+//     alert("You don't know? 'ECMAScript'!");
+// }
+
+
+// let question = prompt("Who is there ?");
+
+// function ADMIN(){
+//     let adminpassword = "TheMaster"
+//     let inputpass = prompt("Password? ")
+//     if (inputpass == adminpassword){
+//         alert("Welcome");
+//     }else if(inputpass == "other"){
+//         alert("Wrong password");
+//     }else{
+//         alert("Canceled!");
+//     }
+// }
+
+// if(question == "Admin"){
+//     ADMIN();
+// }else if(question == "Other"){
+//     alert("I don't know you");
+// }else{
+//     alert("Canceled!")
+// }
+
+// let i = 1;
+
+// while (i <= 3){
+//     alert(i);
+//     i++;
+// }
+
+// for(let b = 0; b<10; b++){
+//     alert(b);
+//     if(b == 5){
+//         break;
+//     }
+// }
+
+// Switch case
+
+let y = parseInt(prompt("Insert a number")) + 2;
+
+switch(y){
+    case 4:
+        alert("Correct!");
+        break;
+    
+    case 3:
+        alert("too small");
+        break;
 }
 
 
-let question = prompt("Who is there ?");
 
-function ADMIN(){
-    let adminpassword = "TheMaster"
-    let inputpass = prompt("Password? ")
-    if (inputpass == adminpassword){
-        alert("Welcome");
-    }else if(inputpass == "other"){
-        alert("Wrong password");
-    }else{
-        alert("Canceled!");
-    }
-}
-
-if(question == "Admin"){
-    ADMIN();
-}else if(question == "Other"){
-    alert("I don't know you");
-}else{
-    alert("Canceled!")
-}
