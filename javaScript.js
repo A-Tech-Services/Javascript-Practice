@@ -102,17 +102,77 @@
 
 // Switch case
 
-let y = parseInt(prompt("Insert a number")) + 2;
+// let y = parseInt(prompt("Insert a number")) + 2;
 
-switch(y){
-    case 4:
-        alert("Correct!");
-        break;
+// switch(y){
+//     case 4:
+//         alert("Correct!");
+//         break;
     
-    case 3:
-        alert("too small");
-        break;
-}
+//     case 3:
+//         alert("too small");
+//         break;
+// }
+// function showMessage(text){
+
+//     alert(text ?? "unknonwn");
+// }
+// showMessage();
+// showMessage(prompt("This message is from? "), prompt("What did you have to say?"));
+
+// function sum(a, b){
+//     return a + b;
+// }
+
+// alert(sum(1, 2));
+
+
+// let car ={
+//     model: 500,
+//     color: "red"
+// };
+
+// car.name = "camry";
+
+// alert(car);
+
+// arrow function
+
+// let sum = (a, b) => a + b;
+
+// alert(sum(2, 5));
+
+// let age = parseInt(prompt("How old are you?"));
+
+// let message = (age >= 18) ? 
+//                 () => alert("hello") : 
+//                 () => alert("Hey you are underage!");
+
+// message();
+
+// let ask = (question, yes, no) => {
+//     if(confirm(question)){
+//         return yes();
+//     }else{
+//         return no()
+//     }
+// }
+
+// ask("Do you agree?", function(){alert("You agreed.");},
+// function() {alert("You canceled the execution.");});
+
+// let Btn = document.querySelector(".button");
+
+// Btn.addEventListener("click", () => {
+//     let i = 0;
+//     while(true){
+//       i +=1;
+//       console.log(i);
+      
+//     }
+// })
+
+
 
 
 
