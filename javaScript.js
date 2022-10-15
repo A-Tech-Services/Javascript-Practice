@@ -168,9 +168,40 @@
 //     while(true){
 //       i +=1;
 //       console.log(i);
+
+//       if(i == 5){
+//         break;
+//       }
       
 //     }
 // })
+
+// let user = new Object();
+// let users = {
+//   name: "Amos",
+//   Age: 22,
+//   "dgree school": "BSC"
+// };
+
+// let ques = prompt("Which School did you attend? ");
+// users["Which School"] = ques;
+
+
+
+// console.log(typeof(user));
+// console.log(users);
+
+let user ={
+  name: "john",
+  age: 30,
+  isAdmin: true,
+};
+
+for(let key in user){
+  alert(key);
+  alert(user[key]);
+}
+
 
 
 
