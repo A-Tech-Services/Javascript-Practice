@@ -191,16 +191,64 @@
 // console.log(typeof(user));
 // console.log(users);
 
-let user ={
-  name: "john",
-  age: 30,
-  isAdmin: true,
-};
+// let user ={
+//   name: "john",
+//   age: 30,
+//   isAdmin: true,
+// };
 
-for(let key in user){
-  alert(key);
-  alert(user[key]);
-}
+// for(let key in user){
+//   alert(key);
+//   alert(user[key]);
+// }
+
+
+// let user ={
+//   john: 200,
+//   Noah: 100,
+//   sade: 12000
+// };
+
+// let total = 0;
+
+// for(employ in user){
+//   total += user[employ];
+// }
+
+// alert ( total);
+
+// cloning an object into another
+
+// let user ={
+//   name: "taye",
+//   age: 22,
+//   occupation: "Barber"
+// }
+
+// let user2 = {};
+
+// // for(prop in user){
+// //   user2[prop] = user[prop];
+// // }
+
+// user2 = Object.assign(user);
+// console.log(user2);
+
+
+// Object.assign(user2, user);
+
+let text = "Hello how are you doing?";
+let newText = text.trimStart().trimEnd();
+console.log(newText.length);
+
+
+
+
+
+
+
+
+
 
 
 
