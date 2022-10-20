@@ -276,12 +276,29 @@
 // cars.splice(2, 1, "maggi", "tomato");
 // document.getElementById("id").innerHTML = cars;
 
-let money = [40, 20, 10, 60, 80, 150];
-money.sort(function(a, b){return(a - b)});
-alert(money);
+// let money = [40, 20, 10, 60, 80, 150];
+// money.sort(function(a, b){return(a - b)});
+// alert(money);
 
-let highest = Math.max.apply(null, money);
-alert(highest);
+// let highest = Math.max.apply(null, money);
+// alert(highest);
 
-let lowest = Math.min.apply(null, money);
-alert(lowest);
+// let lowest = Math.min.apply(null, money);
+// alert(lowest);
+
+// money.forEach(num =>{
+//   alert(num);
+// })
+// let sum = 0;
+// for(num in money){
+//   sum += money[num]; 
+// }
+// alert(sum);
+
+let date = new Date();
+let hr = date.getHours();
+let min = date.getMinutes();
+let sec = date.getSeconds();
+// document.getElementById("id").innerHTML = `${hr} : ${min} : ${sec}`;
+document.getElementById("id").innerHTML = date.toDateString();
+
