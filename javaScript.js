@@ -102,7 +102,7 @@
 
 // Switch case
 
-// let y = parseInt(prompt("Insert a number")) + 2;
+// let y = Number(prompt("Insert a number")) + 2;
 
 // switch(y){
 //     case 4:
@@ -142,7 +142,7 @@
 
 // alert(sum(2, 5));
 
-// let age = parseInt(prompt("How old are you?"));
+// let age = Number(prompt("How old are you?"));
 
 // let message = (age >= 18) ? 
 //                 () => alert("hello") : 
@@ -237,21 +237,51 @@
 
 // Object.assign(user2, user);
 
-let text = "Hello how are you doing?";
-let newText = text.trimStart().trimEnd();
-console.log(newText.length);
+// let text = "Hello how are you doing?";
+// let newText = text.trimStart().trimEnd();
+// console.log(newText.length);
 
 
+//Template 
 
 
+// let header = "Tempelate Literals";
+// let tags = ["template literals", "Javascript", "es6"];
 
+// let html = `<h2>${header}</h2><ul>`;
+// for (const x of tags){
+//   html += `<li>${x}</li>`;
+// }
 
+// html += `</ul>`;
 
+// document.getElementById("id").innerHTML = html;
 
+// let ques = Number(prompt("Hey Calculate"));
+// let ques2 = Number(prompt("Hey Calculate"));
+// let ans = ques + ques2;
+// alert(ans);
 
+// alert(Number.MIN_VALUE);
 
+// let cars = ["lambo", "Gwagon", "Benz", "jide"];
+// // let carLen = cars.length;
 
+// // let text = "<ul>";
+// // for (let i = 0; i < carLen; i++){
+// //   text +="<li>" + cars[i] + "</li>";
+// // }
 
+// // text += "</ul>";
+// cars.splice(2, 1, "maggi", "tomato");
+// document.getElementById("id").innerHTML = cars;
 
+let money = [40, 20, 10, 60, 80, 150];
+money.sort(function(a, b){return(a - b)});
+alert(money);
 
+let highest = Math.max.apply(null, money);
+alert(highest);
 
+let lowest = Math.min.apply(null, money);
+alert(lowest);
